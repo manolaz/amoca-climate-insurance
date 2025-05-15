@@ -8,6 +8,7 @@ skip-lint = false
 amoca_climate_insurance = "48mfBprbc35YicVWfEZUk2VkaWPVHiTpMG7a4VkMSVpP"
 movement = "7bkAB1hRtkjaCrwMjyvTibeCukDFsUcJvQiWYceYenPo"
 position = "6zuudujcvaN2qUrJao4sELQHfLW1inFfpaWBqGj3oLRo"
+system-movement = "HV9pfp3RiPz83fgxazVQjXKAa6BjfyMtNBgyi2P9dyL6"
 
 [registry]
 url = "https://api.apr.dev"

@@ -1,12 +1,12 @@
 [package]
-name = "amoca-climate-insurance"
+name = "system-movement"
 version = "0.2.3"
 description = "Created with Bolt"
 edition = "2021"
 
 [lib]
 crate-type = ["cdylib", "lib"]
-name = "amoca_climate_insurance"
+name = "system_movement"
 
 [features]
 no-entrypoint = []
@@ -19,6 +19,7 @@ anchor-debug = ["bolt-lang/anchor-debug"]
 custom-heap = []
 custom-panic = []
 
+
 [dependencies]
 bolt-lang.workspace = true
-switchboard-on-demand = "0.3.8"
+serde = { version = "1.0", features = ["derive"] }
