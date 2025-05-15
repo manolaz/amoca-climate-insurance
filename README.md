@@ -29,6 +29,27 @@ AMOCA utilizes these high-performance blockchains to ensure:
 - Complete transparency of contracts and claims
 - Immutable record keeping
 
+### Switchboard Oracle Integration
+
+AMOCA leverages Switchboard Oracle to provide reliable, on-demand climate data feeds for both Solana and Sui programs:
+
+- **Decentralized Data Feeds**: Trustless, tamper-proof climate data from multiple sources
+- **Cross-Chain Compatibility**: Native support for both Solana and Sui blockchains
+- **On-Demand Updates**: Real-time data feeds that trigger only when needed, reducing costs
+- **Custom Data Requests**: Flexible framework for sourcing specific climate metrics
+- **Verifiable Randomness**: Secure random number generation for fair risk assessment
+
+#### How Switchboard Works with AMOCA
+
+Switchboard's decentralized oracle network connects our smart contracts to real-world climate data through:
+
+1. **Publisher Networks**: Multiple independent data publishers verify and submit climate metrics
+2. **Aggregation Protocol**: Data is validated and aggregated to eliminate outliers and manipulation
+3. **On-Chain Feeds**: Climate parameters are stored on-chain for transparent policy execution
+4. **Push & Pull Mechanisms**: Both automatic updates and on-demand data requests are supported
+
+This integration ensures that AMOCA's parametric insurance contracts execute based on reliable, verifiable climate data, enhancing the platform's security and trustworthiness.
+
 ### MagicBlock Engine Integration
 
 AMOCA leverages MagicBlock's high-performance engine to overcome traditional blockchain limitations for real-time climate data applications.
